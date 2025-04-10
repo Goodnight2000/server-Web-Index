@@ -10,6 +10,11 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  server:{
+    host:"0.0.0.0",
+    port:8080,
+    allowedHosts: ['1c002629w31.goho.co']
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
