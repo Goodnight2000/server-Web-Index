@@ -6,7 +6,7 @@ const request = axios.create({
 export namespace service {
   export function test(data: object){
     return request({
-      method:"post",
+      method:"get",
       url:"/think",
       data
     })

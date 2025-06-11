@@ -10,9 +10,7 @@ service.test({
   "nihao":"nihao"
 }).then(data=>{
   console.log(data);
-
 })
-
 onMounted(()=>{
 
 })
